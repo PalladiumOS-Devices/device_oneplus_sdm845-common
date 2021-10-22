@@ -1,11 +1,15 @@
 [
   {
-    "repository"  : "vendor_oneplus",
-    "target_path" : "vendor/oneplus"
+    "remote": "github",
+    "repository": "zahidmgsk/vendor_oneplus6",
+    "target_path": "vendor/oneplus",
+    "branch": "r"
   },
   {
-    "repository"  : "vendor_addons_oneplus_apps",
-    "target_path" : "vendor/addons/oneplus/apps"
+    "remote": "github",
+    "repository": "zahidmgsk/vendor_addons_oneplus_apps",
+    "target_path": "vendor/addons/oneplus/apps",
+    "branch": "sdm845"
   },
   {
     "repository"  : "device_oneplus_common",
@@ -13,8 +17,14 @@
   },
   {
     "remote": "github",
-    "repository": "Thunder-StROMs-Devices/kernel_oneplus_sdm845_r1",
+    "repository": "zahidmgsk/kernel_oneplus_sdm845r",
     "target_path": "kernel/oneplus/sdm845",
-    "branch": "11.0-illusion"    
+    "branch": "r"   
+  },
+  {
+    "remote": "github",
+    "repository": "zahidmgsk/android_prebuilts_clang_host_linux-x86_clang-r416183b1",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r416183b1",
+    "branch": "11.0"   
   }
-]
+] 
